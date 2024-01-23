@@ -10,7 +10,7 @@
 
 This project is for educational porpuses only. The main goal of this project is to create a simple website about UFOs error page!    
 
->Site published at: https://silvijaz.github.io/48-grupe-html-ufo/
+>Site published at: https://silvijaz.github.io/48-grupe-astronautas/
 
 >Design: [Astronautas] https://dribbble.com/shots/5964475-404-Lost-in-Space
 
@@ -47,7 +47,7 @@ Open terminal and follow my instruction:
 1) Clone repository:
 
 ```
-https://github.com/SilvijaZ/48-grupe-html-ufo.git
+https://github.com/SilvijaZ/48-grupe-astronautas
 ```
 
 2) Install NPM packages:
