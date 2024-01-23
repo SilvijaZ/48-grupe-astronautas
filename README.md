@@ -1,4 +1,4 @@
-# Astronautas
+# :woman_astronaut: Astronautas
 
 ***Website  design  project***
 
@@ -64,7 +64,7 @@ Choose one of them. They  are same commands.
 npm run dev
 ```
 
-## :woman_astronaut: Authors
+## Authors
 
 Silvija: [Github link](https://github.com/SilvijaZ)
 
