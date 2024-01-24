@@ -1,0 +1,106 @@
+/*h1, header a{
+    font-size: 60px;
+    color: yellow
+}
+
+h2, footer a{
+    font-size: 40px;
+    color: green;
+}
+
+p, main a{
+    font-size: 20px;
+    color: red;
+}
+
+.didelis-geltonas {
+    font-size: 60px;
+    color: rgb(255, 225, 89);
+    font-weight: bold;
+}
+
+.normali{
+    font-size: 40px;
+    color: green;
+}
+
+.maza{
+    font-size: 20px;
+    color: red;
+}*/
+
+
+
+/*a + a {
+    background-color: rgb(246, 94, 18);
+    /*paiima is eiles a tagus, bet pirmo neiims
+}
+div > div > a {
+    background-color: red;
+}
+
+main div * {
+    background-color: red;
+}
+
+footer a{
+    background-color: red;
+}
+
+footer > div > a {
+    background-color: red;
+}
+
+<main>
+<div>AAAA</div>
+<div>BBBB</div>
+</main>
+
+main > div + div{
+    background-color: red;
+}
+
+main > div {
+    background-color: red;
+}
+
+
+
+Struktura:
+
+header > img{}
+
+header > nav{}
+
+header > nav > a{}
+
+
+main{}
+
+main > div{}
+
+main > div > h1{}
+
+main > div > h2{}
+
+main > div > p{}
+
+main > div > div{}
+
+main > div > div > a{}
+
+main > div > div > a + a{}
+
+main > div + div{}
+
+main > div > img{}
+
+
+footer{}
+
+footer > div{}
+
+footer > div > a{}
+
+footer > p{}
+*/
