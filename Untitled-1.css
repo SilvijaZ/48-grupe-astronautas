@@ -103,4 +103,15 @@ footer > div{}
 footer > div > a{}
 
 footer > p{}
+
+
+.parent{
+    display: flex;
+    justify- content: start;
+    flex-wrap: wrap;
+    
+}
+
+.parant > child{
+}
 */
