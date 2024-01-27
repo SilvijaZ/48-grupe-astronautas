@@ -4,6 +4,8 @@
 
 <br>
 
+[Astronautas] (./img/page design.gif)
+
 <br>
 
 ## :bulb: About Project
