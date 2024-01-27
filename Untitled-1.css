@@ -1,117 +1,82 @@
-/*h1, header a{
-    font-size: 60px;
-    color: yellow
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+ 
+body {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h2, footer a{
-    font-size: 40px;
-    color: green;
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 800px;
+   /* margin-left: calc((100% - 800px) / 2);*/
+    /*margin-left: calc(50% - 400px);*/
+    background-color: yellow;
 }
 
-p, main a{
+.logo{
+   height: 40px;
+    width: 100px;
+    /*background-color: rgb(216, 75, 200);*/
+    object-fit: contain;
+    /*object-fit: contain; geriausia 
+    naudoti kaip logotipas, cover isdarko paveksl., 
+    top ir bottom, center*/
+    object-position: left center;
+    /*nustato objektui pozicija  
+    object-position: left center;*/
+}
+
+.main-nav{
+    display: flex;
+    gap: 20px;
+}
+
+.main-nav > .nav-link {
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
     font-size: 20px;
-    color: red;
+    text-decoration: none;
+    color: black;
+    /*border-bottom: 10px solid red;*/
 }
 
-.didelis-geltonas {
-    font-size: 60px;
-    color: rgb(255, 225, 89);
+.main-nav > .active {
+    border-bottom: 10px solid red;
+}
+
+.column-left{}
+
+.column-right{}
+
+.main-title{
     font-weight: bold;
 }
 
-.normali{
-    font-size: 40px;
-    color: green;
-}
+.subtitle{}
 
-.maza{
-    font-size: 20px;
-    color: red;
-}*/
+.desription{}
 
+.btn-list{}
 
+.btn{}
 
-/*a + a {
-    background-color: rgb(246, 94, 18);
-    /*paiima is eiles a tagus, bet pirmo neiims
-}
-div > div > a {
-    background-color: red;
-}
+.main-img{}
 
-main div * {
-    background-color: red;
-}
+.socials{}
 
-footer a{
-    background-color: red;
-}
-
-footer > div > a {
-    background-color: red;
-}
-
-<main>
-<div>AAAA</div>
-<div>BBBB</div>
-</main>
-
-main > div + div{
-    background-color: red;
-}
-
-main > div {
-    background-color: red;
-}
-
-
-
-Struktura:
-
-header > img{}
-
-header > nav{}
-
-header > nav > a{}
-
-
-main{}
-
-main > div{}
-
-main > div > h1{}
-
-main > div > h2{}
-
-main > div > p{}
-
-main > div > div{}
-
-main > div > div > a{}
-
-main > div > div > a + a{}
-
-main > div + div{}
-
-main > div > img{}
-
-
-footer{}
-
-footer > div{}
-
-footer > div > a{}
-
-footer > p{}
-
-
-.parent{
-    display: flex;
-    justify- content: start;
-    flex-wrap: wrap;
-    
-}
-
-.parant > child{
-}
-*/
+.social-link{}

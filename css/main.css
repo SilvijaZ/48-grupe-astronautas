@@ -13,7 +13,7 @@ body {
     align-items: center;
     gap: 40px;
     padding-top: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -21,16 +21,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 50px;
     width: 800px;
-   /* margin-left: calc((100% - 800px) / 2);*/
+   /*margin-left: calc((100% - 800px) / 2);*/
     /*margin-left: calc(50% - 400px);*/
     background-color: yellow;
 }
 
 .logo{
-   height: 40px;
-    width: 100px;
+    height: 30px;
+    width: 80px;
     /*background-color: rgb(216, 75, 200);*/
     object-fit: contain;
     /*object-fit: contain; geriausia 
@@ -43,57 +43,147 @@ body {
 
 .main-nav{
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
 .main-nav > .nav-link {
-    /*padding-top: 10px;
-    padding-bottom: 10px;*/
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 20px;
+    font-weight: 600;
     text-decoration: none;
     color: black;
-    /*border-bottom: 10px solid red;*/
+    transition-duration: 0.1s;
+    /*border-bottom: 5px solid red;*/
 }
 
-.main-nav > .active {
-    border-bottom: 10px solid red;
+.nav-link:hover{
+border-bottom: 2px solid rgb(106, 0, 141);
 }
 
-/*.main-nav > .active {
-    border-bottom: 10px solid red;
-}
-.main-nav > .nav-link.active {
-    border-bottom: 10px solid red;
+.nav-link:active{
+    color: rgb(215, 116, 248);
 }
 
-.main-nav > .nav-link.green {
-    border-color: rgb(0, 255, 0);
+.column-left{
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   gap: 10px;
+   color: black;
 }
-
-.main-nav > .nav-link.blue {
-    border-color: rgb(0, 55, 255);
-}*/
-
-
-
-.column-left{}
-
-.column-right{}
 
 .main-title{
-    font-weight: bold;
+    display: inline;
+    font-size: 80px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-.subtitle{}
+.subtitle{
+    display: inline;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    text-transform: capitalize;
+}
 
-.desription{}
+.bruksnys{
+    border-bottom: 5px solid rgb(106, 0, 141);
+}
 
-.btn-list{}
+.desription{
+    padding-top: 10%;
+    padding-right: 10%;
+    display: inline;
+    text-align: left;
+    font-size: 20px;
+    /*font-weight: 550;*/
+    line-height: 25px;
+    font-family: 'Josefin Sans', sans-serif;
 
-.btn{}
+}
 
-.main-img{}
+.btn-list{
+    box-sizing: border-box;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
 
-.socials{}
+.btn-violet{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(75, 0, 141);
+    border: 3px solid rgb(75, 0, 141);
+    padding: 13px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    transition-duration: 0.4s;
+}
 
-.social-link{}
+.btn-violet:hover{
+    background-color: rgb(75, 0, 141);
+    color: rgb(255, 255, 255);
+}
+
+
+.btn-white{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(75, 0, 141);
+    border: 3px solid rgb(75, 0, 141);
+    padding: 13px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+.btn-white:hover{
+    background-color: rgb(75, 0, 141);
+    color: rgb(255, 255, 255);
+}
+
+.column-right{
+   box-sizing: border-box;
+    object-position: right;
+    width: 400px;
+}
+
+.main-img{
+    width: 490px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.socials{
+    display: flex;
+    justify-content: row;
+    gap: 10px;
+}
+
+.icon1, .icon2, .icon3, .icon4{
+	color: rgb(75, 0, 141);
+    margin: 8px;
+    font-size: 20px;
+}
+
+.copyright{
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
