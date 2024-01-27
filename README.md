@@ -4,7 +4,7 @@
 
 <br>
 
-[Astronautas] (./img/page design.webp)
+[Astronautas] (./img/page design.jpg)
 
 <br>
 
