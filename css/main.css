@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     /*justify-content: center;*/
     align-items: center;
-    gap: 40px;
+    gap: 70px;
     padding-top: 40px;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -21,11 +21,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
-    width: 800px;
+    width: 900px;
    /*margin-left: calc((100% - 800px) / 2);*/
     /*margin-left: calc(50% - 400px);*/
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 
 .logo{
@@ -164,7 +163,7 @@ border-bottom: 2px solid rgb(106, 0, 141);
 }
 
 .main-img{
-    width: 490px;
+    width: 500px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -173,6 +172,7 @@ border-bottom: 2px solid rgb(106, 0, 141);
     display: flex;
     justify-content: row;
     gap: 10px;
+    margin-top: 20px;
 }
 
 .icon1, .icon2, .icon3, .icon4{
