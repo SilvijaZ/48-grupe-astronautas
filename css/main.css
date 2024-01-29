@@ -175,7 +175,8 @@ body {
     display: flex;
     justify-content: row;
     gap: 10px;
-    margin-top: 20px;
+    margin: 10px;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -183,6 +184,7 @@ body {
 	color: grey;
     margin: 8px;
     font-size: 20px;
+    justify-content: center;
 }
 
 .icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover{
